@@ -1,6 +1,10 @@
-# Run npm test to see the automated tests
+# Getting Started Testing with Create React App
 
-# Getting Started with Create React App
+## How to run the tests
+1. Clone this repo and `npm install`
+2. Run `npm test` to run React Component Test
+3. Run `npm start` to start the testing React instance
+4. Run `node_modules/.bin/cypress open` to run Cypress Automated Test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
