@@ -1,5 +1,4 @@
 import '@testing-library/cypress/add-commands';
-//import '@testing-library/jest-dom'
 
 describe('find* dom-testing-library commands', () => {
     beforeEach(() => {
@@ -9,8 +8,10 @@ describe('find* dom-testing-library commands', () => {
     // Test each of the types of queries: LabelText, PlaceholderText, Text, DisplayValue, AltText, Title, Role, TestId
   
     it('findByLabelText', () => {
-      cy.get('#btn1').click()
+      // we are using a cypress add-command findByRole
+      cy.findByRole('button', {name: /Login/i}).click()
       console.log(cy.get('#msg1'));
+      // we use Cypress native get method here
       cy.get('#msg1').should("have.text","Morning Mary!!")
     })
 }
