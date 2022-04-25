@@ -1,8 +1,8 @@
-# Getting Started Testing with Create React App
+# Getting Started Testing with Create React App (aka No more manual testing!)
 
-## How to run the tests
+## How to run tests without opening your browser.
 1. Clone this repo and `npm install`
-2. Run `npm test` to run React Component Test
+2. Run `npm test` to run React Component Test. Rerun all tests if needed.
 3. Run `npm start` to start the testing React instance
 4. Run `node_modules/.bin/cypress open` to run Cypress Automated Test
 
