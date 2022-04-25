@@ -6,8 +6,8 @@ const Banner = (props) => {
         setMsg("John!!")
     }
     return (<div data-testid="test-1">
-        <h1>{`${props.message} ${msg}`}</h1>
-        <button onClick={handleClick}>Login</button>
+        <h1 id="msg1">{`${props.message} ${msg}`}</h1>
+        <button id="btn1" onClick={handleClick}>Login</button>
         </div>)
 }
 
