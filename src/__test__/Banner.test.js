@@ -9,14 +9,7 @@ test('loads and displays greeting', async () => {
   render(<Banner message="Morning" />)
 
   let v = screen.getByTestId("test-1")
- // console.log(v.childNodes[0]);
   fireEvent.click(screen.getByText('Login'))
   expect(v.childNodes[0].childNodes[0].textContent).toBe("Morning John!")
-
-
-  //await waitFor(() => screen.getByRole('heading'))
-
-//   expect(screen.getByRole('heading')).toHaveTextContent('hello there')
-//   expect(screen.getByRole('button')).toBeDisabled()
 })
 
