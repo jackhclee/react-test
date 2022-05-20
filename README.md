@@ -1,5 +1,8 @@
 # Getting Started Testing with Create React App (aka No more manual testing!)
 
+## Downlaod the Node Server Backend Project
+1. Clone repo [expressta](https://github.com/jackhclee/expressta) and run the index.js and listening at port 8080.
+
 ## How to run tests without opening your browser.
 1. Clone this repo and `npm install`
 2. Run `npm test` to run React Component Test. Rerun all tests if needed.
