@@ -46,7 +46,7 @@ export default function Fetch({url}) {
         dispatch({type: 'ERROR', error})
       })
 
-  const buttonText = buttonClicked ? 'Ok' : 'Click here to Load greeting from backend server'
+  const buttonText = buttonClicked ? 'Ok' : 'Click here to load greeting from backend server'
 
   return (
     <div>
