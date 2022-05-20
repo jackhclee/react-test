@@ -38,7 +38,7 @@ export default function Fetch({url}) {
       .get(url)
       .then(response => {
         const {data} = response
-        const {greeting} = data
+        const {greeting} = data[0]
         dispatch({type: 'SUCCESS', greeting})
         setButtonClicked(true)
       })

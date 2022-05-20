@@ -24,7 +24,7 @@ function App() {
         </a>
         <Counter />
       <Banner message="Morning" />
-      <Fetch url="/greeting" />
+      <Fetch url="/greetings" />
 </header>
     </div>
   );
