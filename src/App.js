@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Fetch from './Fetch.js'
 import Banner from './Banner.js'
+import { Counter } from "./Counter"
+
 
 function App() {
   return (
@@ -18,10 +20,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React!
         </a>
+        <Counter />
       <Banner message="Morning" />
-      <Fetch url="http://localhost:8080/greeting" />
+      <Fetch url="/greeting" />
 </header>
     </div>
   );
