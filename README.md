@@ -1,13 +1,13 @@
 # Getting Started Testing with Create React App (aka No more manual testing!)
 
 ## Downlaod the Node Server Backend Project
-1. Clone repo [expressta](https://github.com/jackhclee/expressta) and run the index.js and listening at port 8080.
+1. Clone REST API repo [expressta](https://github.com/jackhclee/expressta) and run the `index.js` and listening at port 8080.
 
 ## How to run tests without opening your browser.
 1. Clone this repo and `npm install`
 2. Run `npm test` to run React Component Test. Rerun all tests if needed.
-3. Run `npm start` to start the testing React instance
-4. Run `node_modules/.bin/cypress open` to run Cypress Automated Test
+3. Run `npm start` to start the testing React instance. Access the React app at `http://localhost:3000`
+4. Open another terminal. Run `npx cypress open` to run Cypress Automated Test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
