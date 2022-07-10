@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Fetch from './Fetch.js'
+import Basic from './Basic.js'
 import Banner from './Banner.js'
 import { Counter } from "./Counter"
 
@@ -25,6 +26,7 @@ function App() {
         <Counter />
       <Banner message="Morning" />
       <Fetch url="/greetings" />
+      <Basic />
 </header>
     </div>
   );
