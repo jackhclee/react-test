@@ -39,6 +39,7 @@ const Basic = () => {
                                 headers.append('Content-Type', "application/json");
                                 let jsonBdy = {
                                     name: file2Upload.name,
+                                    mime: file2Upload.type,
                                     content: btoa(binaryStr)
                                 }
                                 console.log(`binaryStr ${binaryStr}`)
