@@ -69,11 +69,13 @@ const Basic = () => {
                     isSubmitting,
                     /* and other goodies */
                 }) => (
+                    <div>
                     <form onSubmit={handleSubmit}>
                         <input type="file"
                             name="upload"
                             ref={fileUpload}
                         />
+                        <br />
                         <input
                             type="email"
                             name="email"
@@ -81,6 +83,7 @@ const Basic = () => {
                             onBlur={handleBlur}
                             value={values.email}
                         />
+                        <br />
                         {errors.email && touched.email && errors.email}
                         <input
                             type="password"
@@ -89,11 +92,13 @@ const Basic = () => {
                             onBlur={handleBlur}
                             value={values.password}
                         />
+                        <br />
                         {errors.password && touched.password && errors.password}
                         <button type="submit" disabled={isSubmitting}>
                             Submit
                         </button>
                     </form>
+                    </div>
                 )}
             </Formik>
         </div>
